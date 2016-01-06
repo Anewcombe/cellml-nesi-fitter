@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <CellMLTimeSeriesFit>
-	<GA InitialPopulation="100" Generations="20" Mutation_proportion="0.80" Crossover_proportion="0.50" RNG="0">
+	<GA InitialPopulation="64" Generations="20" Mutation_proportion="0.80" Crossover_proportion="0.50">
 		<Alleles>
-			<Allele Name="kf5" LowerBound="877.5" UpperBound="877.8"/>
-			<Allele Name="kf4" LowerBound="727.3" UpperBound="727.3"/>
-			<Allele Name="kf16" LowerBound="822.3" UpperBound="822.3"/>
-			<Allele Name="Rpc" LowerBound="2385.4" UpperBound="2386.6"/>
+			<Allele Name="kf5" LowerBound="21.32" UpperBound="213.3"/>
+			<Allele Name="kf4" LowerBound="995.9" UpperBound="9960"/>
+			<Allele Name="kf16" LowerBound="0.2015" UpperBound="2.016"/>
+			<Allele Name="Rpc" LowerBound="0.000005689" UpperBound="0.00005690"/>
 		</Alleles>
 	</GA>
 	<VirtualExperiments>
-		<VirtualExperiment ModelFilePath="ip3model.cellml" Variable="IP3" ReportStep="0">
+		<VirtualExperiment ModelFilePath="ip3model.cellml" Variable="IP3" ReportStep="1">
 			<AssessmentPoints>
 				<AssessmentPoint time="0.0" target="0.015" />
 				<AssessmentPoint time="43.0" target="0.0201" />
