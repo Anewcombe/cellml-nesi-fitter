@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <CellMLTimeSeriesFit>
-	<GA InitialPopulation="10" Generations="5" Mutation_proportion="0.20" Crossover_proportion="0" RNG="0">
+	<GA InitialPopulation="10" Generations="5" Mutation_proportion="0.20" Crossover_proportion="0">
 		<Alleles>
 			<Allele Name="x1" LowerBound="-500" UpperBound="500"/>
 			<Allele Name="x2" LowerBound="-500" UpperBound="500"/>
