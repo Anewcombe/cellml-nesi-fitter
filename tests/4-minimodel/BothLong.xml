@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <CellMLTimeSeriesFit>
-	<GA InitialPopulation="100" Generations="400" Mutation_proportion="0.4" Crossover_proportion="0.60" RNG="1">
+	<GA InitialPopulation="100" Generations="400" Mutation_proportion="0.4" Crossover_proportion="0.60">
 		<Alleles>
 			<Allele Name="k_f1" LowerBound="0" UpperBound="100"/>
 			<Allele Name="k_f2" LowerBound="0" UpperBound="6"/>
